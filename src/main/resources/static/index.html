@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Planner</title>
+</head>
+<body>
+<h1>Flight Planner</h1>
+
+<h3>Welcome to Rational Data Flight Planning Website!</h3>
+<p>
+    There is only one GET call at /flights that can be used either standalone (without parameters) or with an optional airportCode param (for each city).
+    Allowed airportCodes = ATH,SKG,HER and RHO.
+</p>
+<ul>
+    <li><a href="/h2-console">H2 Console</a></li>
+    <li><a href="/flights">API: GET all flights</a></li>
+    <li><a href="/flights?airportCode=ATH">API: GET all flights from Athens</a></li>
+    <li><a href="/flights?airportCode=SKG">API: GET all flights from Thessaloniki</a></li>
+    <li><a href="/flights?airportCode=HER">API: GET all flights from Heraklion</a></li>
+    <li><a href="/flights?airportCode=RHO">API: GET all flights from Rhodes</a></li>
+</ul>
+</body>
+</html>
